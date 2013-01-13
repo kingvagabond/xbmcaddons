@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.txbb"
+    name="天线宝宝网星电视"
+    version="0.0.4"
+    provider-name="rodney">
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>hello world plugin</summary>
+        <summary lang="zh">天线宝宝网星电视</summary>
+        <description>tianxianbaby netstartv plugin, python script</description>
+        <description lang="zh">天线宝宝网星电视插件，python脚本</description>
+	<platform>all</platform>
+        <disclaimer>For mitbbs TVChinese Board</disclaimer>
+    </extension>
+</addon>
+
